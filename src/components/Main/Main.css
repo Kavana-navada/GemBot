@@ -52,7 +52,7 @@
 .main .card{
    background-color: #f0f4f9; 
    padding: 15px;
-   height: 200px;
+   height: 170px;
    border-radius: 10px;
    position: relative;
    cursor: pointer;
@@ -122,10 +122,7 @@
 }
 
 .main .bottom-info{
-    font-size: 13px;
-    margin: 15px auto;
-    text-align: center;
-    font-weight: 300;
+    margin: 30px auto;
 
 }
 .result{
@@ -185,4 +182,28 @@
     line-height: 1.8;
     font-size: 17px;
     font-weight: 300;
+}
+
+@media(max-width:600px){
+    .main .greet{
+        font-size: 26px;
+    }
+    .main .greet span{
+        font-size: 45px;
+    } 
+    .main-bottom input{
+        flex:none;
+        width: 150px;
+        font-size: 15px;
+    }
+    .main-bottom  img{
+        width: 20px;
+    }
+    .search-box{
+        padding: 5px 10px;
+    }
+    .search-box div{
+        gap:5px
+    }
+    
 }

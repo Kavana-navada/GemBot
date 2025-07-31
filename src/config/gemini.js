@@ -16,7 +16,7 @@ async function run(prompt) {
     return text;
   } catch (error) {
     console.error("Error in Gemini API call:", error);
-    return "Unable to process **the** request at * the moment.";
+    return "Unable to process the request at the moment.";
   }
 }
 

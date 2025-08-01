@@ -73,7 +73,7 @@ src/
 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/gembot.git
+git clone https://github.com/Kavana-navada/GemBot.git
 cd gembot
 ```
 2. Install dependencies

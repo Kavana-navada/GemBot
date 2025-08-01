@@ -74,7 +74,7 @@ src/
 
 ```bash
 git clone https://github.com/Kavana-navada/GemBot.git
-cd gembot
+cd GemBot
 ```
 2. Install dependencies
 
